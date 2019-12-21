@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<title>Home</title>
+<link rel = "stylesheet" type = "text/css" href = "css/Styles.css">
+</head>
+<body>
+	<header>
+	</header>
+	<nav>
+		<div class = "menu">
+			<ul>
+				<li class = "active"><a href="#top">Home</a></li>
+				<li><a href="Project.html">Achievements</a></li>
+				<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+			</ul>
+		</div>
+	</nav>
+	<div id="top">
+		<div class = "title">
+			<p>Kunal Pandya</p>
+			</div>
+		<div class = "button">
+			<a href="https://github.com/kunalpanda" class="btn" target="_blank">GITHUB</a>
+		</div>
+	</div>
+	<div id="mid">
+			<div class = "highlights">
+				<div class = "heading">
+					<p>Highlights</p>
+				</div>
+				<div class="container">
+					<div class = "pictures">
+						<a href="Project.html"><img src = "images/FRC_Logo.svg.png" alt = "frc"></a>
+						<div class = "caption">FRC World Championship Semifinalits</div>
+					</div>
+					<div class = "pictures">
+						<a href="Project.html"><img src = "images/deca.png" alt = "deca"></a>
+						<div class = "caption">Top 10 In Deca Toronto Regionals</div>
+					</div>
+					<div class = "pictures">
+						<a href="Project.html"><img src = "images/GoIT.png" alt = "goit"></a>
+						<div class = "caption">GoIT Certification to Teach</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript">
+		$(window).on("scroll", function(){
+			if($(window).scrollTop()){
+				$('nav').addClass('white');
+			}
+			
+			else{
+				$('nav').removeClass('white');
+			}
+		})
+	</script>
+	<!--<div id=bottom>
+		</div>-->
+</body>
+</html>
