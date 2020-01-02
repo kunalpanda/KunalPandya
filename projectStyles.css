@@ -6,7 +6,7 @@
 }
 
 #top{
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../background.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(background.jpg);
 	height: 50vh;
 	width: 100%;
 	background-size: cover;
