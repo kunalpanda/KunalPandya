@@ -137,14 +137,9 @@ nav.white{
 	color: #333;
 }
 
-.contact{
-	padding-left: 680px;
-	padding-top: 20px;
-	}
-
-.contact p{
+contact p{
 	font-size: 25px;
-	color: white;
+	color: rgb(202, 202, 202);
 	text-decoration: none;
 }
 
@@ -156,5 +151,16 @@ nav.white{
 .rights p{
 	color: #333;
 	font-size: 12px;
+}
+
+.contactInfo {
+	padding-left: 31%;
+	padding-top: 2%;
+	padding-bottom: 9%;
+}
+
+.contactInfo p{
+	color: rgb(202, 202, 202);
+	font-size: 16px;
 }
 
