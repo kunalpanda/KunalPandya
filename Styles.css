@@ -137,7 +137,12 @@ nav.white{
 	color: #333;
 }
 
-contact p{
+.contact{
+	padding-left: 680px;
+	padding-top: 10px;
+	}
+
+.contact p{
 	font-size: 25px;
 	color: rgb(202, 202, 202);
 	text-decoration: none;
